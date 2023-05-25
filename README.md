@@ -1,8 +1,48 @@
-
 # Machine Learning Foundations
 
 > I'm using this repository for remember details and saving little code
 > snippets related with ML.
+
+## Machine Learning Processes
+
+ 1.  Data Collection
+	    
+	DATA: Accuracy, Relevance, Variability, Quantity, Ethics
+    
+ 2. Data Exploration
+    
+ 3. Data Preparation (Preprocessing)
+		 
+		 Data Cleaning : Handle Missing values (Deletion, Imputation, Create new category such as 'unknown', 'N/A'), Remove Irrelevant Data
+		 Data Normalization: Same Range
+		 Feature Selection: Create subset ( Reducing dimensionality, reducing overfitting, improve accuracy, improve training time) using optimization algorithms such as heuristic algorithms, genetic, best first search, greedy .... etc. 
+		 Data Splitting: Train-Test
+		 Data Augmentation
+		 
+ 4. Modelling
+ 
+		Decision Tree: Small number features
+		Random Forest: High number features and complex interactions between features
+		Naive Bayes:  High number features
+		Lineer Regression: Numerical , Continuous Values
+		Logistic Regression: Categorical Values , Binary outcome (True/False, Yes/No),
+		
+ 6. Evaluation
+		
+		True Positives (TP): Number of samples  _correctly_ predicted as “positive.”
+		False Positives (FP): Number of samples  _wrongly_ predicted as “positive.”
+		True Negatives (TN): Number of samples  _correctly_ predicted as “negative.”
+		False Negatives (FN): Number of samples  _wrongly_ predicted as “negative.”
+
+		Precision= TP / ( TP + FP)   * accuracy of positive predictions
+		Recall= TP / (TP+FN) * sensitivity or true positive rate
+		F1= 2*Precision*Recall / ( Precision + Recall)
+
+ 7. Actionable Insights
+
+> Overfitting Problem: K-Fold Cross Validation, Early Stopping, Pruning ( Feature Selection) , Data Augmentation
+
+
 
 ## Unsupervised Learning: Clustering, Association
 
@@ -222,44 +262,3 @@ A sample case for reinforcement learning:
 
 
 
-
-
-
-## Machine Learning Processes
-
- 1.  Data Collection
-	    
-	DATA: Accuracy, Relevance, Variability, Quantity, Ethics
-    
- 2. Data Exploration
-    
- 3. Data Preparation (Preprocessing)
-		 
-		 Data Cleaning : Handle Missing values (Deletion, Imputation, Create new category such as 'unknown', 'N/A'), Remove Irrelevant Data
-		 Data Normalization: Same Range
-		 Feature Selection: Create subset ( Reducing dimensionality, reducing overfitting, improve accuracy, improve training time) using optimization algorithms such as heuristic algorithms, genetic, best first search, greedy .... etc. 
-		 Data Splitting: Train-Test
-		 Data Augmentation
-		 
- 4. Modelling
- 
-		Decision Tree: Small number features
-		Random Forest: High number features and complex interactions between features
-		Naive Bayes:  High number features
-		Lineer Regression: Numerical , Continuous Values
-		Logistic Regression: Categorical Values , Binary outcome (True/False, Yes/No),
-		
- 6. Evaluation
-		
-		True Positives (TP): Number of samples  _correctly_ predicted as “positive.”
-		False Positives (FP): Number of samples  _wrongly_ predicted as “positive.”
-		True Negatives (TN): Number of samples  _correctly_ predicted as “negative.”
-		False Negatives (FN): Number of samples  _wrongly_ predicted as “negative.”
-
-		Precision= TP / ( TP + FP)   * accuracy of positive predictions
-		Recall= TP / (TP+FN) * sensitivity or true positive rate
-		F1= 2*Precision*Recall / ( Precision + Recall)
-
- 7. Actionable Insights
-
-> Overfitting Problem: K-Fold Cross Validation, Early Stopping, Pruning ( Feature Selection) , Data Augmentation
